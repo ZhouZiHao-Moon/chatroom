@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+}
+body {
+    position: relative;
+    width: 96%;
+    padding-bottom: 130px;
+    min-height: 100%;
+}
+div {
+    margin: 8px 3% 0px 3%;
+    width: 90%;
+}
+.foot {
+    margin-left: 0px;
+    padding-left: 2%;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    background-color: white;
+    width: 100%;
+}

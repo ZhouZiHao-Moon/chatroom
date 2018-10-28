@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+        <script src="static/js/jquery.min.js"></script>
+        <script src="static/js/myjs.js"></script>
+        <link rel="stylesheet" type="text/css" href="static/mycss.css">
+        <title>ChatRoom</title>
+        <script>
+        </script>
+    </head>
+    <body>
+        <div hidden id="time"></div>
+        <div style="background-color: white">
+            昵称：<input id="name">
+            <button id="enter" onclick="enter();">进入聊天室</button>
+        </div>
+        <div id="message"></div>
+        <div class="foot">
+            <textarea rows="5" wrap="virtual" style="width: 96%" disabled id="text"></textarea>
+            <br />
+            <button style="margin: 8px 0px 8px 0px;" disabled id="send" onclick="send();">发送</button>
+        </div>
+    </body>
+</html>
